@@ -4,7 +4,7 @@ const obj = { test: "hello" };
 obj.__proto__ = MyProto;
 const obj2 = Object.create(MyProto);
 
-console.log(obj2.field);
+console.log();
 console.log(obj.field);
 
 MyProto.field = 2;

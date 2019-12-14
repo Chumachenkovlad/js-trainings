@@ -1,4 +1,4 @@
-function intersectionSort(numbers) {
+function insertionSort(numbers) {
   for (let j = 2; j < numbers.length; j++) {
     let key = numbers[j];
 

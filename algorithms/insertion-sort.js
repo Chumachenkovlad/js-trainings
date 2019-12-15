@@ -15,4 +15,4 @@ function insertionSort(numbers) {
   return numbers;
 }
 
-console.log(insertionSort([1, 3, -1, 0, 2, -5, 6, 3, 8, 7]));
+console.log(insertionSort([1, 3, -1, 0]));
